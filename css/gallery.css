@@ -172,6 +172,7 @@ nav {
   border-radius: 0.5rem;
   border: none;
   font-size: 17px;
+  color: #000;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -272,6 +273,7 @@ nav {
   border: none;
   background-color: transparent;
   font-size: 16px;
+  color: #000;
 }
 
 .home-container ul li:nth-child(1) button {
@@ -329,6 +331,7 @@ nav {
 
 .header button {
   cursor: pointer;
+  color: #000;
   outline: none;
   font-size: 12px;
   font-weight: 600;
