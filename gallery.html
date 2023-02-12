@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo gallery UI</title>
+    <link rel="stylesheet" href="gallery.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body>
+    <section class="nav-container">
+      <nav>
+        <div class="nav-logo">
+          <a href="#">
+            <img src="512x512bb.jpg" alt="Pexels" />
+          </a>
+          <a href="#">
+            <button class="pexel">Pexels</button>
+          </a>
+        </div>
+        <div class="overlay">
+          <div class="dropdown">
+            <div class="drop-btn">
+              Explore
+              <img src="/icon-arrow-light.svg" alt="" />
+            </div>
+            <div class="dropdown content">
+              <a href="#">Discover Photos</a>
+              <a href="#">Popular Searches</a>
+              <a href="#">Leaderboard</a>
+              <a href="#">Challenges</a>
+              <a href="#">Free Videos</a>
+              <a href="#">Pexels Blog</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-list">
+          <div class="drop-down">
+            <div class="drop-btn">
+              <a href="#"> Explore</a>
+              <img class="arrow-down" src="/icon-arrow-light.svg" alt="" />
+            </div>
+            <div class="dropdown content">
+              <a href="#">Discover Photos</a>
+              <a href="#">Popular Searches</a>
+              <a href="#">Leaderboard</a>
+              <a href="#">Challenges</a>
+              <a href="#">Free Videos</a>
+              <a href="#">Pexels Blog</a>
+            </div>
+          </div>
+          <a class="list" href="#">License</a>
+          <a class="list" href="#">Upload</a>
+          <div class="drop-btn">
+            <button class="dotted" type="">...</button>
+          </div>
+          <div class="dropdown-content">
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <hr />
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <hr />
+            <div class="socials">
+              <a href="#">
+                <img src="/images/facebook-logo-24 (1).png" alt="facebook" />
+              </a>
+              <a href="#">
+                <img src="/images/twitter-logo-24.png" alt="twitter" />
+              </a>
+              <a href="#">
+                <img src="/images/instagram-logo-24.png" alt="instagram" />
+              </a>
+              <a href="#">
+                <img src="/images/pinterest-alt-logo-24.png" alt="pinterest" />
+              </a>
+              <a href="#">
+                <img src="/images/youtube-logo-24.png" alt="youtube" />
+              </a>
+            </div>
+          </div>
+          <div class="nav-btn">
+            <a href="#">
+              <button>Join</button>
+            </a>
+          </div>
+          <img class="ham" src="/menu-regular-24.png" alt="" />
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="hero-text">
+          <h1>
+            The best free stock photos, royalty free images & videos shared by
+            creators.
+          </h1>
+          <form class="form">
+            <input type="text" placeholder="Search for free Photos" />
+            <ion-icon name="search-outline"></ion-icon>
+          </form>
+          <p>
+            Trending: <span><a href="#">art</a></span
+            >, <span><a href="#">animal</a></span
+            >, <span><a href="#">computer</a></span
+            >, <span><a href="#">dark</a></span
+            >, <span><a href="#">christmas</a></span>
+            <button>...</button>
+          </p>
+        </div>
+      </div>
+      <div class="photo">
+        <p><span>Photo by</span> Irina Irisier</p>
+      </div>
+    </section>
+    <section class="img-container">
+      <div class="grid-container">
+        <div class="stock-container">
+          <div class="home-container">
+            <ul>
+              <li>
+                <a href="#"><button>Home</button></a>
+              </li>
+              <li>
+                <a href="#"><button>Videos</button></a>
+              </li>
+              <li>
+                <a href="#"><button>Leaderboard</button></a>
+              </li>
+              <li>
+                <a href="#"><button>Challenges</button></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="first-container">
+        <div class="header">
+          <h1>Free Stock Photos</h1>
+          <a href="#">
+            <button>
+              Trending
+              <img class="arrow-dn" src="/icon-arrow-down.svg" alt="" />
+            </button>
+          </a>
+        </div>
+        <div class="gallery"></div>
+        <a class="load-more" data-img="curated">Load More</a>
+      </div>
+    </section>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="gallery.js"></script>
+  </body>
+</html>
