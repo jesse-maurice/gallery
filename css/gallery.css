@@ -69,7 +69,7 @@ img {
   max-width: 100%;
   /* align-items: center; */
   margin: 0 auto;
-  background-image: url("/pexels-irina-iriser-1233414.jpg");
+  background-image: url("../images/pexels-irina-iriser-1233414.jpg");
   background-size: 250%;
   background-position: 49% 51%;
   background-repeat: no-repeat;
@@ -521,7 +521,7 @@ form ion-icon {
     max-width: 100%;
     /* align-items: center; */
     margin: 0 auto;
-    background-image: url("/pexels-irina-iriser-1233414.jpg");
+    background-image: url("../images/pexels-irina-iriser-1233414.jpg");
     background-size: 250%;
     background-position: 49% 51%;
     background-repeat: no-repeat;
