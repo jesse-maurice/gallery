@@ -29,6 +29,7 @@ img {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 .list {
@@ -641,17 +642,17 @@ form ion-icon {
   .hero-text {
     color: #fff;
     letter-spacing: 1px;
-    width: 40rem;
+    width: 39rem;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
     /* justify-content: center; */
-    font-size: 32px;
+    /* font-size: 32px; */
     margin-top: 6rem;
   }
 
   .hero-text h1 {
-    font-size: 34px;
+    /* font-size: 33px; */
     /* text-align: center; */
   }
 
