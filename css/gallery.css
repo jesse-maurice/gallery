@@ -27,6 +27,10 @@ img {
   /* background-color: #fff; */
 }
 
+a {
+  text-decoration: none;
+}
+
 .list {
   display: none;
 }
@@ -317,7 +321,7 @@ nav {
 }
 .header h1 {
   cursor: pointer;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   letter-spacing: 0.5px;
 }
@@ -342,8 +346,8 @@ nav {
 .arrow-dn {
   cursor: pointer;
   width: 12px;
-  margin-bottom: 0.1rem;
-  margin-left: 0.625rem;
+  /* margin-bottom: 0.1rem; */
+  margin-left: 0.5rem;
 }
 
 form {
@@ -372,7 +376,7 @@ input:focus {
 }
 
 input::placeholder {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   opacity: 0.6;
   color: rgb(69, 68, 68);
